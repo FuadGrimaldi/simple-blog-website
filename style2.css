@@ -1,0 +1,282 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* No Default */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Clear float */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  zoom: 1;
+}
+
+/* Style */
+body {
+  font: 16px/28px arial, sans serif;
+  background-color: #eaeaea;
+  background-image: url(img/prism.png);
+  color: #333;
+}
+.container {
+  width: 1000px;
+  margin: 80px auto;
+  margin-bottom: 0;
+  background-color: white;
+  position: relative;
+}
+.instagram {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-image: url(img/ribbon.png);
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  position: absolute;
+  top: -13px;
+  right: -14px;
+}
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: #dadada;
+  border-bottom: 3px solid #333;
+  z-index: 9999;
+}
+.top-bar p {
+  padding-top: 24px;
+  font-weight: bold;
+  font-size: 34px;
+  letter-spacing: 0.3rem;
+  text-align: center;
+}
+.header {
+  padding: 20px;
+}
+.header .header-tilte {
+  font-size: 40px;
+  font-weight: bold;
+}
+.header .navigasi ul li {
+  display: inline-block;
+  font-size: 13px;
+  padding-top: 17px;
+}
+.header .navigasi ul li a {
+  text-decoration: none;
+  color: rgb(120, 109, 131);
+  padding: 3px;
+}
+.header .navigasi ul li a:hover {
+  font-size: 24px;
+  color: rgb(150, 30, 58);
+}
+.hero-img {
+  height: 400px;
+  background-image: url(img/skrull.jpeg);
+  background-size: cover;
+  background-position: 0 -50px;
+  border-bottom: 5px solid rgb(134, 121, 121);
+}
+.main {
+  padding: 20px;
+}
+.main .content {
+  width: 650px;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+  /* border: 5px solid black; */
+}
+.main .main-title h2 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 13px;
+}
+.main .main-title p {
+  font-size: 11px;
+  margin-top: -4px;
+  padding-bottom: 15px;
+  letter-spacing: 0.1rem;
+}
+.main .main-title p a {
+  text-decoration: none;
+  color: rgb(120, 109, 131);
+}
+.main .main-title p a:hover {
+  font-size: 18px;
+  color: rgb(150, 30, 58);
+}
+.main .main-content p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.main .side-bar {
+  width: 290px;
+  color: #333;
+  float: right;
+  padding-top: 33px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+.main .side-bar h2 {
+  font-weight: bold;
+}
+.main .side-bar img {
+  float: left;
+  padding-top: 7px;
+  padding-right: 20px;
+}
+.main .side-bar p {
+  font: 12px/18px arial;
+}
+
+/* footer */
+.footer {
+  background-color: black;
+  font-size: 12px;
+  color: white;
+  padding: 15px;
+}
+.footer .fa-copyright {
+  text-align: center;
+}
